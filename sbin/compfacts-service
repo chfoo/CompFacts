@@ -1,0 +1,5 @@
+#!/bin/sh 
+
+sudo -u www-compfacts -g www-compfacts python compfacts.service \
+	--log-dir /home/www-compfacts/logs/ \
+	--database /home/www-compfacts/compfacts.db

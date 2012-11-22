@@ -1,0 +1,26 @@
+digit -> '0'
+digit -> '1'
+digit -> '2'
+digit -> '3'
+digit -> '4'
+digit -> '5'
+digit -> '6'
+digit -> '7'
+digit -> '8'
+digit -> '9'
+
+non_zero_digit -> '1'
+non_zero_digit -> '2'
+non_zero_digit -> '3'
+non_zero_digit -> '4'
+non_zero_digit -> '5'
+non_zero_digit -> '6'
+non_zero_digit -> '7'
+non_zero_digit -> '8'
+non_zero_digit -> '9'
+
+two_digit -> non_zero_digit
+two_digit -> non_zero_digit digit
+three_digit -> two_digit digit
+four_digit -> three_digit digit
+

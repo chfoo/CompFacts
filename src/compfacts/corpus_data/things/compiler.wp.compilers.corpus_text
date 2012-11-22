@@ -1,0 +1,166 @@
+# Extracted from Wikipedia, The Free Encyclopedia
+# License CC-BY-SA
+# Date extracted: 2012-11-18T00:53:00.665471
+# Args: --wikipedia-list
+ALGOL 60
+ALGOL 68G
+AMD
+Allegro Common Lisp
+Amsterdam Compiler Kit
+Armed Bear Common Lisp
+Axiomatic Solutions Sdn Bhd
+Aztec C
+Bigloo
+BlitzMax
+Bloodshedsoftware
+Borland
+C compiler
+CCS C Compiler
+CINT
+CLISP
+CMU Common Lisp
+COBOL
+Ch
+Chez Scheme
+Chicken Scheme
+Chipmunk Basic
+Clang
+Clozure CL
+CodeWarrior
+Comeau Computing
+Common Larceny
+Corman Common Lisp
+D Compiler for .Net
+DMS Software Reengineering Toolkit
+DarkBASIC
+Delphi Prism
+Digital Mars
+Eclipse
+EiffelStudio
+Elk Scheme
+Embarcadero
+Embarcadero Delphi
+Embeddable Common Lisp
+FTN95
+Felix
+Free Pascal
+FreeBASIC
+G95
+GCC
+GDC
+GFortran
+GHC
+GNU Common Lisp
+GNU Guile
+GNU Java
+GNU Pascal
+GNU Smalltalk
+GPL
+Gambas
+Gambit
+Gauche
+HBC
+HP Pascal
+Hewlett-Packard
+HotpathVM
+IAR Systems
+IBM
+ILDJIT
+Ikarus Scheme
+Intel
+Intel Fortran Compiler
+Interactive C
+Interactive Compilation Interface
+IronScheme
+JHC
+JScheme
+Javac
+Keil
+Kylix
+LDC
+Lahey Fortran
+Larceny
+Liberty BASIC
+Linux
+LispWorks
+Local C compiler
+MILEPOST GCC
+MS-DOS
+MULTI
+Mark Williams C
+Mentor Graphics
+Microsoft
+Microsoft Pascal
+Microsoft Visual Studio
+Microtec
+MikroC Compiler
+Modified MIT
+Mono
+NAG Fortran Compiler
+NHC
+National Instruments
+Nils Weller
+Open Genera
+Open VMS
+Open Watcom
+Open64
+OpenCOBOL
+Owl Lisp
+Oxygen Scheme
+PGCPP
+PVTS
+PathScale
+Pelles C
+Petit Larceny
+Portable C Compiler
+Portable.NET
+Power C
+PowerBASIC
+ProDev WorkShop
+Psyco
+PureBasic
+PyPy
+QB64
+QuickBASIC
+QuickC
+ROSE compiler framework
+RScheme
+Racket
+Realbasic
+Ritchie C Compiler
+Roadsend PHP
+S-algol
+SAS Institute
+SCM
+SUIF
+Scheme 48
+Scieneer Common Lisp
+Shedskin
+SiCortex
+Silverfrost
+Small Device C Compiler
+Small-C
+Smalltalk MT
+Solaris Studio
+Solaris Studio Express
+Stalin
+Steel Bank Common Lisp
+SubC
+TenDRA
+The LLVM Compiler Infrastructure
+The Portland Group
+Tiny C Compiler
+Turbo Pascal
+Turbo Pascal for Windows
+VBCC
+VS Fortran
+Vector Pascal
+VectorC
+Virtual Pascal
+Visual Basic
+Wind River Systems
+XL C
+XL Fortran
+XPL
+YHC
+cython

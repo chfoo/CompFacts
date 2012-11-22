@@ -1,0 +1,32 @@
+Copies of licenses should be accompanied with this document or software 
+package. Except where noted in this document or within files themselves, 
+the following statements apply.
+
+The source code under src/ is licensed under the GNU Public License version 3.
+
+GPL statement:
+
+    CompFacts
+    Copyright (C) 2012 Christopher Foo <chris.foo@gmail.com>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+The corpus data files and graphics under images/ 
+are licensed under the Creative Commons 
+Attribution-ShareAlike 3.0 Unported License. The licenses are
+available online at <http://creativecommons.org/licenses/>.
+
+Packaging files, under debian/, are placed in public domain. In places where
+it is not possible, the files are licensed under the Creative Commons Zero 1.0
+Universal license.

@@ -1,0 +1,9 @@
+proof_proposition -> 'runs in ' complexity_func '(' complexity ') time'
+complexity_func -> 'O'
+complexity_func -> 'Ω'
+complexity_func -> 'Θ'
+complexity -> complexity_simple
+complexity_simple -> 'n'
+complexity_simple -> 'n²'
+complexity_simple -> 'log n'
+complexity_simple -> 'n!'

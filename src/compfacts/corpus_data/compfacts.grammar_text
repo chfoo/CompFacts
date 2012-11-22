@@ -1,0 +1,55 @@
+# The @compfacts context-free grammar
+
+S -> compfact
+
+
+# Generic aliases
+# ===============
+
+computer -> old_computer
+computer -> new_computer
+any_computer -> old_computer
+any_computer -> fake_computer
+any_computer -> fake_computer
+video_game -> old_video_game
+
+software -> compiler
+software -> virus
+
+any_person -> person
+any_person -> fake_person
+person -> programmer
+person -> celebrity
+any_tech_person -> fake_tech_person
+any_tech_person -> tech_person
+tech_person -> programmer
+fake_person -> fake_tech_person
+fake_person -> fake_fantasy_person
+fake_person -> fake_hacker
+fake_person -> fake_name
+last_name -> generic_lastname
+last_name -> tamil_lastname
+fake_name -> latin_letter '. ' last_name
+
+animal -> dragon
+animal -> fake_dog
+
+dragon_w_title -> dragon ' THE DRAGON'
+fake_dog_w_title -> fake_dog ' THE DOG'
+
+movie -> cg_movie
+
+post_fact -> __CONTINUE09__ ' ' believe_me
+__CONTINUE09__ -> '__ERROR__'
+
+
+# The facts
+# =========
+
+#compfact -> 'Fact: ' fact post_fact
+compfact -> fact post_fact
+compfact -> compfact2
+compfact2 -> compfact
+compfact2 -> qna
+#compfact2 -> 'Tip: ' protip
+compfact2 -> protip

@@ -1,0 +1,17 @@
+key_press -> latin_letter
+key_press -> key_fn_press
+key_fn_press -> 'F' two_digit
+key_fn_press -> 'SysRq'
+key_fn_press -> 'ESC'
+key_fn_press -> 'PgUp'
+key_fn_press -> 'PgDn'
+key_fn_press -> 'Tab'
+key_fn_press -> 'NumLk'
+key_fn_press -> 'Del'
+key_fn_press -> 'Ins'
+
+key_combo -> 'Ctrl/⌘+Shift+' key_press
+key_combo -> 'Ctrl/⌘+Shift+' key_press '+' key_press
+key_combo -> 'Alt+Ctrl+' key_press
+key_combo -> key_combo ' then ' key_combo
+

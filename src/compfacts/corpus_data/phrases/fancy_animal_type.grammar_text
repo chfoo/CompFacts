@@ -1,0 +1,2 @@
+fancy_animal_type -> adjective ' ' fancy_animal_type
+fancy_animal_type -> nationality ' ' animal_type

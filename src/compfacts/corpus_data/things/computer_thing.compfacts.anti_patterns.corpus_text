@@ -1,0 +1,85 @@
+abstraction inversion
+accidentaly complexity
+action at a distance
+ambiguous viewpoint
+anaemic domain model
+BaseBean
+befused request
+bicrement
+big ball of mud
+blind faith
+bloombug
+boat anchor
+bugfoot
+busy waiting
+caching failure
+call super
+cargo cult programming
+chunky salsa
+circle-ellipse problem
+circular dependency
+complex conditionals
+constant interface
+contrived complexity
+copy & paste programming
+counterbug
+database-as-IPC
+dependency hell
+DOCTYPE decoration
+drug report
+duck
+duplicated code
+error hiding
+fear-driven development
+feature envy
+ghetto code
+god object
+golden hammer
+gold plating
+hard code
+hindenbug
+improbability factor
+inappropriate intimacy
+inner-platform effect
+input kludge
+interface bloat
+IRQed
+large class
+lava flow
+lazy class
+loch ness monster bug
+long method
+loop-switch sequence
+magic number
+magic pushbutton
+megamoth
+n-gleton
+NOPing
+not invented here
+object cesspool
+object orgy
+Pokémon exception handling
+poltergeists
+premature optimization
+programming by permutation
+race hazard
+refuctoring
+refused request
+reinventing the square wheel
+repeating yourself
+sequential coupling
+shotgun surgery
+shrug report
+silver bullet
+smug report
+soft code
+spaghetti code
+stovepipe system
+stringly-typed
+tester driven development
+too many parameters
+ubercallback
+unicorny
+Yoda condition
+yo-yo problem
+

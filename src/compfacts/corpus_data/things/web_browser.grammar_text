@@ -1,0 +1,14 @@
+web_browser_name_inf -> 'Firefox'
+web_browser_name_inf -> 'Google Chrome'
+web_browser_name_inf -> 'Chromium'
+web_browser_name -> 'Safari'
+web_browser_name -> 'Konqueror'
+web_browser_name -> 'Opera'
+web_browser_name -> 'Internet Explorer'
+
+web_browser_version -> non_zero_digit '.' digit
+web_browser_version_inf -> two_digit
+
+web_browser -> web_browser_name ' ' web_browser_version
+web_browser -> web_browser_name_inf ' ' web_browser_version_inf
+

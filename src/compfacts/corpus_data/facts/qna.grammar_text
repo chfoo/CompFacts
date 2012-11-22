@@ -1,0 +1,52 @@
+qna -> 'Q: ' who_question ' A: ' any_person '.'
+who_question -> 'Who ' enjoys_word ' playing the classic game ' old_video_game '?'
+who_question -> 'Who ' enjoys_word ' the classic ' old_video_game '?'
+who_question -> 'Who has the largest ' old_computer ' collection in the world?'
+who_question -> 'Who ' made ' ' computer_thing ' but is not credited?'
+who_question -> 'Who ' made ' ' computer ' but is not credited?'
+who_question -> 'Who owned the MOST EXPENSIVE COMPUTER in ' year '?'
+who_question -> 'Who is ' dubious_statement_word ' AFRAID of using computers in public?'
+who_question -> 'Who copied the patent for ' adjective ' ' computer_thing ' by ' fake_name '?'
+who_question -> 'Who doesn’t like ' product_service ' as it was ' adjective '?'
+who_question -> 'Who is the leader behind Anonymous?'
+who_question -> 'Who ' enjoys_word ' ' present_participle ' ' product_service '?'
+who_question -> 'Who was the FIRST PERSON to own a ' old_computer '?'
+who_question -> 'Who got their ' body_part ' stuck in the ' computer_thing ' of a ' computer '?'
+who_question -> 'Who watched the most ' animal_type ' videos in ' year '?'
+who_question -> 'Who collects the most ' computer_thing ' (totalling ' three_digit ',' digit digit digit ')?'
+who_question -> 'Who ' made ' ' programming_language ' VERSION ' two_digit '?'
+who_question -> 'Who is ' present_participle ' the ' computer_thing ' of the ' compiler ' compiler?'
+who_question -> 'Who is famous for ' present_participle ' the ' computer_thing ' at ' institute '?'
+who_question -> 'Who hacked ' product_service ' in ' year '?'
+who_question -> 'In ' year ', who broke ' computer_thing ' ENCRYPTION?'
+who_question -> 'Who 'made ' the ' adjective ' DUB-STEP SYNTHESIZER that ' celebrity ' uses?'
+who_question -> 'In ' year ', the POCKET VERSION of ' computer_thing ' was ' made ' by whom?'
+who_question -> 'Who programmed the ' computer ' so it would be ' adjective ' ' adjective '?'
+
+qna -> 'Q: ' computer_cost_question ' A: US$' three_digit ',000.' 
+computer_cost_question -> 'In 200' digit ', a ' old_computer ' was sold for how much?'
+computer_cost_question -> 'If ' fake_computer ' was real, how much would it cost to build in ' year '?'
+computer_cost_question -> 'How much did the computers used for ' cg_movie ' cost?'
+computer_cost_question -> 'The development of ' computer_thing ' ' computer_concept_buzzword ' required how much funding?'
+computer_cost_question -> 'At the time ' old_video_game ' was ' made ' for ' old_computer ', how much ' man_hours ' did it cost?'
+computer_cost_question -> 'What is the value of all the ' old_computer ' in the world?'
+computer_cost_question -> 'To make the ' computer ' a ' adjective ' computer, it would cost how much?'
+computer_cost_question -> celebrity ' has the most copies of ' old_video_game '. How much are they worth?'
+computer_cost_question -> 'What is ' programmer '’s annual salary?'
+computer_cost_question -> person ' owns the MOST POWERFUL COMPUTER (' computer_thing ' ' non_zero_digit '000). It costs how much?'
+computer_cost_question -> 'How much debt did ' old_video_game ' incur before development hell in ' year '?'
+computer_cost_question -> 'How much profit was made in the computer industry within the last ' two_digit ' seconds?'
+computer_cost_question -> 'In the 1970s, how much would a ' computer_thing ' cost?'
+computer_cost_question -> 'In ' year ', how much did the video game industry profit?'
+
+qna -> guess_me
+guess_me -> 'Q: I am ' adjective ' and I like ' present_participle '. What am I? A: ' guess_me_answer '.'
+guess_me -> 'Q: I can be ' adjective ' but I am usually ' present_participle '. What am I? A: ' guess_me_answer '.'
+guess_me -> 'Q: I was ' made ' by ' programmer ' for ' present_participle ' ' computer_thing '. What am I? A: ' guess_me_answer '.'
+guess_me_answer -> adjective ' ' computer_thing
+guess_me_answer -> 'I do not exist'
+guess_me_answer -> 'a ' fancy_animal_type
+guess_me_answer -> adjective ' ' tech_field ' ' computer_concept_buzzword
+guess_me_answer -> old_computer
+guess_me_answer -> fake_fantasy_person '’s ' computer_thing
+

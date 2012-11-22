@@ -1,0 +1,28 @@
+new_computer -> 'ACER ASPIRE ' latin_letter non_zero_digit digit digit
+new_computer -> 'GATEWAY ' latin_letter latin_letter digit digit
+new_computer -> 'APPLE IPOD ' non_zero_digit
+new_computer -> 'APPLE MACBOOK ' non_zero_digit '-GEN'
+new_computer -> 'LENOVO ' latin_letter non_zero_digit digit digit
+new_computer -> 'DELL XPS ' non_zero_digit digit digit digit
+new_computer -> 'THINKPAD ' latin_letter non_zero_digit digit digit
+new_computer -> 'ALIENWARE M' non_zero_digit digit 'x'
+new_computer -> 'TOSHIBA ' latin_letter non_zero_digit digit digit
+new_computer -> 'SONY VAIO ' latin_letter ' 1' non_zero_digit '”'
+
+new_computer -> 'APPLE ' iphone
+new_computer -> samsung_phone
+
+iphone -> 'iPhone ' non_zero_digit latin_letter
+samsung_phone -> 'Samsung ' samsung_phone_suffix_feat
+samsung_phone_suffix_feat -> 'Galaxy ' samsung_phone_suffix_var
+samsung_phone_suffix_feat -> 'Nexus ' samsung_phone_suffix_var ' ' samsung_phone_suffix_num
+samsung_phone_suffix_var -> 'Note'
+samsung_phone_suffix_var -> 'Ace'
+samsung_phone_suffix_var -> 'Plus'
+samsung_phone_suffix_var -> 'Beam'
+samsung_phone_suffix_num -> 'I' samsung_phone_suffix_num
+samsung_phone_suffix_num -> samsung_phone_suffix_num
+samsung_phone_suffix_num -> 'S'
+samsung_phone_suffix_num -> latin_letter
+
+

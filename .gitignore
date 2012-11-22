@@ -1,0 +1,12 @@
+*.bak
+*.pyc
+*.pyo
+*~
+__pycache__
+.project
+.pydevproject
+*.blend[0-9]
+.settings
+dist
+MANIFEST
+/etc/compfacts.conf
