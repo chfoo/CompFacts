@@ -10,8 +10,7 @@ import sched
 import sqlite3
 import threading
 import time
-import tweepy.api
-import tweepy.auth
+import tweepy
 
 
 _logger = logging.getLogger(__name__)
@@ -177,9 +176,9 @@ class PostScheduler(threading.Thread):
 class TwitterAPIService(object):
     def __init__(self, consumer_key, consumer_secret, access_token,
     access_token_secret):
-        self._auth = tweepy.auth.OAuthHandler(consumer_key, consumer_secret)
-        self._auth.apply_auth(access_token, access_token_secret)
-        self._api = tweepy.api.API(self._auth)
+        self._auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+        self._auth.set_access_token(access_token, access_token_secret)
+        self._api = tweepy.API(self._auth)
         self.check_auth()
 
     def post_message(self, text):
@@ -192,7 +191,11 @@ class TwitterAPIService(object):
     def check_auth(self):
         _logger.debug('Check if auth ok')
 
-        user_model = self._api.me()
+        try:
+            user_model = self._api.me()
+        except:
+            _logger.exception('Unable to get user model')
+            user_model = None
 
         if user_model:
             _logger.debug('Check ok name=%s', user_model.name)

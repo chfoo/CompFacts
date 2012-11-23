@@ -1,6 +1,6 @@
 start on runlevel [2345]
 stop on runlevel [!2345]
 
-exec /usr/sbin/compfacts-service
+exec /usr/sbin/compfacts-web-service
 
 

@@ -12,8 +12,14 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, adduser, python-compfacts
 Description: Computer Facts service script
  This package include only the scripts to start up the Twitter bot service.
 
+Package: compfacts-web-service
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, compfacts-service
+Description: Computer Facts service script
+ This package include only the scripts to start up the Atom feed service.
+
 Package: python-compfacts
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, python (>=2.7), python-tornado, python-tweepy
+Depends: ${shlibs:Depends}, ${misc:Depends}, python (>=2.7), python-tornado, python-tweepy, python-nltk
 Description: Computer facts generator
  CompFacts uses a context-free grammar to generate computer facts.
