@@ -52,6 +52,10 @@ def main():
         sched_kwargs['retry_delay'] = 5
     else:
         consumer_key = Database(config_parser.get('twitter', 'consumer_key'))
+
+        if consumer_key == u'TODO':
+            raise Exception('Please set consumer key')
+
         consumer_secret = Database(config_parser.get('twitter',
             'consumer_secret'))
         access_token = Database(config_parser.get('twitter', 'access_token'))

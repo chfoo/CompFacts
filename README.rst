@@ -6,8 +6,8 @@ CompFacts uses a context-free grammar to generate computer facts.
 These facts are regularly posted to the Twitter account
 <@CompFacts `https://twitter.com/CompFacts`>_.
 
-An RSS feed is available at
-<`http://www.torwuf.com/compfacts/compfacts.rss`>_.
+An Atom feed is available at
+<`http://www.torwuf.com/compfacts/compfacts.atom`>_.
 
 
 How to help

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Computer Facts</title>
+	<link rel="self" href="{{ request.protocol }}://{{ request.host }}{{ request.uri }}"/>
+
+	{% if facts %}
+	<updated>{{ facts[0][1].isoformat() }}Z</updated>
+	{% end %}
+	<id>urn:uuid:c0e646d1-d385-4cc9-b98e-097bf48345c8</id>
+
+	{% for fact_uuid, fact_date, fact in facts %}
+	<entry>
+		<title>{{ fact }}</title>
+		<content type="text">{{ fact }}</content>
+		<id>{{ fact_uuid.urn }}</id>
+		<updated>{{ fact_date.isoformat() }}Z</updated>
+		<author>
+			<name>Computer Facts</name>
+		</author>
+	</entry>
+	{% end %}
+
+</feed>

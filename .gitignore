@@ -9,4 +9,5 @@ __pycache__
 .settings
 dist
 MANIFEST
-/etc/compfacts.conf
+build
+debian

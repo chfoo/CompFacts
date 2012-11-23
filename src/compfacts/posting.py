@@ -10,13 +10,8 @@ import sched
 import sqlite3
 import threading
 import time
-import warnings
-
-try:
-    import tweepy.auth
-    import tweepy.api
-except ImportError as e:
-    warnings.warn(str(e))
+import tweepy.api
+import tweepy.auth
 
 
 _logger = logging.getLogger(__name__)
@@ -72,12 +67,12 @@ class Database(object):
             after_timestamp = time.time()
 
         with self.connection() as con:
-            cursor = con.execute('SELECT timestamp, fact FROM facts '
+            cursor = con.execute('SELECT id, timestamp, fact FROM facts '
                 'WHERE timestamp <= ? '
                 'ORDER BY id DESC LIMIT 100', [after_timestamp])
 
             for row in cursor:
-                facts.append((row[0], row[1]))
+                facts.append((row[1], row[2], row[0]))
 
         return facts
 

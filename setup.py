@@ -19,6 +19,7 @@ setup(name='CompFacts',
     package_dir={'': 'src'},
     packages=['compfacts'],
     package_data={'compfacts': [
+        'compfacts.atom',
         'corpus_data/*.grammar_text',
         'corpus_data/*/*.corpus_text',
         'corpus_data/*/*.grammar_text',

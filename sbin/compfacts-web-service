@@ -1,0 +1,4 @@
+#!/bin/sh 
+
+sudo -u www-compfacts -g www-compfacts python -m compfacts.web \
+	/home/www-compfacts/compfacts.db

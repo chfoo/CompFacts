@@ -1,0 +1,19 @@
+Source: compfacts
+Section: unknown
+Priority: extra
+Maintainer: Christopher Foo <chris.foo@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: https://github.com/chfoo/compfacts
+
+Package: compfacts-service
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, adduser, python-compfacts
+Description: Computer Facts service script
+ This package include only the scripts to start up the Twitter bot service.
+
+Package: python-compfacts
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, python (>=2.7), python-tornado, python-tweepy
+Description: Computer facts generator
+ CompFacts uses a context-free grammar to generate computer facts.
