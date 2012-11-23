@@ -45,7 +45,7 @@ def run_web_server():
     args = arg_parser.parse_args()
 
     app = Application(Database(args.database))
-    app.listen(9804, 'localhost', xheaders=True)
+    app.listen(8796, 'localhost', xheaders=True)
     tornado.ioloop.IOLoop.instance().start()
 
 

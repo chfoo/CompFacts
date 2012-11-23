@@ -1,5 +1,5 @@
 upstream compfacts_frontends {
-	server 127.0.0.1:9804;
+	server 127.0.0.1:8796;
 }
 
 server {
