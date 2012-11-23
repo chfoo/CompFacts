@@ -5,6 +5,7 @@
 from compfacts.posting import Database
 import argparse
 import datetime
+import subprocess
 import time
 import tornado.web
 import uuid
@@ -25,7 +26,23 @@ class AtomFeedHandler(tornado.web.RequestHandler):
 
             facts.append((fact_uuid, fact_date, fact))
 
+        self.set_header('Content-Type', 'application/atom+xml')
         self.render('compfacts.atom', facts=facts)
+
+
+class ServiceStatusHandler(tornado.web.RequestHandler):
+    cache_value = '(unavailable)'
+    cache_time = 0
+
+    def get(self):
+        if self.cache_time < time.time() - 60:
+            self.cache_value = get_service_status()
+            self.cache_time = time.time()
+
+        self.set_header('Content-Type', 'text/plain')
+        self.write('Status:')
+        self.write(self.cache_value)
+        self.write('\r\n')
 
 
 class Application(tornado.web.Application):
@@ -33,6 +50,7 @@ class Application(tornado.web.Application):
         self.db = database
         tornado.web.Application.__init__(self, [
                 (r'/compfacts/compfacts.atom', AtomFeedHandler),
+                (r'/compfacts/server_status', ServiceStatusHandler),
             ],
         )
 
@@ -47,6 +65,14 @@ def run_web_server():
     app = Application(Database(args.database))
     app.listen(8796, 'localhost', xheaders=True)
     tornado.ioloop.IOLoop.instance().start()
+
+
+def get_service_status():
+    try:
+        return subprocess.check_output(['initctl', 'status',
+            'compfacts-service'])
+    except subprocess.CalledProcessError as e:
+        return e.output
 
 
 if __name__ == '__main__':

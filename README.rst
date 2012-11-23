@@ -52,9 +52,12 @@ You can test out the generator by running::
 Running the server
 ==================
 
-I included a Debian package which runs the package as a service. The 
-Python package itself must be installed from the Python Package Index via
-easy_install or pip.
+I included a sample Debian package which I use for running the package as a service.
+The nginx config file is designed to be run behind lighttpd. The service
+will refuse to run if the default ``compfacts.conf`` is not configured.
+Symlink ``debian`` to ``pkg.debian`` for Debian package building.
+The commands ``debuild -b -us -uc`` and ``dh_clean`` will build and clean
+respectively.
 
 The service requires `Tweepy <https://github.com/tweepy/tweepy>`_ for
 Twitter status updates and 
