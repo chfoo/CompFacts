@@ -4,6 +4,7 @@
 # Licensed under GPLv3. See COPYING.txt for details.
 from compfacts.posting import Database
 import argparse
+import compfacts
 import datetime
 import subprocess
 import time
@@ -39,10 +40,10 @@ class ServiceStatusHandler(tornado.web.RequestHandler):
             self.cache_value = get_service_status()
             self.cache_time = time.time()
 
-        self.set_header('Content-Type', 'text/plain')
-        self.write('Status:')
-        self.write(self.cache_value)
-        self.write('\r\n')
+        self.write({
+            'Version': compfacts.__version__,
+            'Status': self.cache_value,
+        })
 
 
 class Application(tornado.web.Application):

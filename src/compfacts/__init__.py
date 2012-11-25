@@ -9,7 +9,7 @@ These facts are regularly posted to the Twitter account
 # Licensed under GPLv3. See COPYING.txt for details.
 import distutils.version
 
-short_version = '1.1'  # N.N
+short_version = '1.2'  # N.N
 __version__ = short_version + ''  # N.N[.N]+[{a|b|c|rc}N[.N]+][.postN][.devN]
 
 distutils.version.StrictVersion(__version__)
