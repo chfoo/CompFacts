@@ -1,0 +1,8 @@
+right_now -> 'At this very moment'
+right_now -> 'Right now'
+right_now -> 'At this time'
+
+on_this_day -> 'On this day of ' year
+on_this_day -> 'On ' day ' of ' month ' ' year
+on_this_day -> 'On ' month ' the ' day ' of ' month
+on_this_day -> 'Of this day in ' year

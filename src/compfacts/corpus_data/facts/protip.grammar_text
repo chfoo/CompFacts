@@ -1,32 +1,57 @@
+# Super user
+protip -> 'Computer crash? Don’t worry! The ' nearest_consultant ' will be at your service.'
 protip -> 'In ' web_browser ', press ' key_combo ' to ' web_browser_action '.'
-protip -> 'In the game ' video_game ', you can ATTACK its WEAK ' attack_weak_what ' for ' adjective ' DAMAGE!'
-protip -> 'Slow computer? Try ' present_participle ' the ' computer_thing '.'
+protip -> 'I’ve got 4 words for you: ' computer_thing ', ' computer_thing ', ' computer_thing ', ' four_words_thing '!'
+protip -> 'Slow computer? ' slow_computer_tip_prefix ' ' present_participle ' the ' computer_thing '.'
+protip -> 'The password of the day is ' adjective present_participle digit digit latin_letter '.'
 protip -> 'When ' unusual_situation ', take a ' computer_concept_buzzword ' break!'
-protip -> time_adverb ', ask a ' adjective ' ' fancy_animal_type ' for advice on ' product_service '.'
+
+
+# Programmer
+protip -> 'A program is not good until it uses ' computer_thing '. (Unless it’s ' programming_language '.)'
+protip -> computer_concept_buzzword ' hint: ' present_participle ' ' animal_type '!'
+protip -> product_service '’s user forums is a great place to discuss ' computer_thing ' ' computer_concept_buzzword '.'
+protip -> programming_language ' code conventions can be consulted by asking the nearest ' nearest_consultant '.'
+
+
+# Shoutouts
+protip -> 'Best game right now? ' new_video_game ' for the ' new_computer '!'
+protip -> 'In the game ' video_game ', you can ATTACK its WEAK ' attack_weak_what ' for ' adjective ' DAMAGE!'
 protip -> love_hate_coding ' ' adjective ' ' programming_language '? ' time_adverb ', try ' programming_language '.'
 protip -> 'You really need to play ' old_video_game ' for the ' old_computer '!'
-protip -> 'Best game right now? ' new_video_game ' for the ' new_computer '!'
-protip -> 'I’ve got 4 words for you: ' computer_thing ', ' computer_thing ', ' computer_thing ', ' four_words_thing '!'
-protip -> 'Computer crash? Don’t worry! The ' nearest_consultant ' will be at your service.'
-protip -> 'How does a ' computer_thing ' work? Subscribe to us and find out!'
-protip -> programming_language ' code conventions can be consulted by asking the nearest ' nearest_consultant '.'
-protip -> computer_concept_buzzword ' hint: ' present_participle ' ' animal_type '!' 
-protip -> 'The password of the day is ' adjective present_participle digit digit latin_letter '.'
-protip -> 'It is not recommended by ' tech_field ' ' people ' for ' animal_type ' ' present_participle ' the ' computer_thing '.'
-protip -> 'Be careful! When you are ' present_participle ' the ' computer_thing ', it may be ' adjective '!'
 
-four_words_thing -> computer_thing
+
+# Warnings
+protip -> 'Be careful! When you are ' present_participle ' the ' computer_thing ', it may be ' adjective '!'
+protip -> 'Hey! Hey! Hey! Listen! ' present_participle ' ' computer_thing ' ' computer_concept_buzzword '!'
+protip -> 'It is not recommended by ' tech_field ' ' people ' for ' animal_type ' ' present_participle ' the ' computer_thing '.'
+protip -> time_adverb ', ask a ' adjective ' ' fancy_animal_type ' for advice on ' product_service '.'
+
+
+# Social
+protip -> subscribe_prefix ' Subscribe to us and find out!'
+
+
+attack_weak_what -> computer_thing
+attack_weak_what -> 'POINT'
 four_words_thing -> animal_type
-nearest_consultant -> fancy_animal_type
-nearest_consultant -> computer_thing
-nearest_consultant -> tech_person
-nearest_consultant -> 'coder in ' tech_field ' ' computer_concept_buzzword
-love_hate_coding -> 'Love coding in'
+four_words_thing -> computer_thing
+love_hate_coding -> 'Always program in'
 love_hate_coding -> 'Hate coding in'
+love_hate_coding -> 'Love coding in'
+love_hate_coding -> 'Never liked programming in'
 love_hate_coding -> 'Never want to see'
 love_hate_coding -> 'Wished everyone would use'
-love_hate_coding -> 'Always program in'
-love_hate_coding -> 'Never liked programming in'
-attack_weak_what -> 'POINT'
-attack_weak_what -> computer_thing
+nearest_consultant -> 'coder in ' tech_field ' ' computer_concept_buzzword
+nearest_consultant -> computer_thing
+nearest_consultant -> fancy_animal_type
+nearest_consultant -> tech_person
+slow_computer_tip_prefix -> 'How about'
+slow_computer_tip_prefix -> 'Oh my! Never'
+slow_computer_tip_prefix -> 'Perhaps you should'
+slow_computer_tip_prefix -> 'Try'
+subscribe_prefix -> 'How did they make ' cg_movie '?'
+subscribe_prefix -> 'How does a ' computer_thing ' work?'
+subscribe_prefix -> 'Need to know when to a buy a ' new_computer '?'
+
 

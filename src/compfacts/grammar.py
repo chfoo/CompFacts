@@ -107,7 +107,8 @@ def check_grammar(grammar, nonterminal, _memo=None):
 
     if not productions:
         raise EmptyProductionsError(
-            'nonterminal %s has no rhs productions' % nonterminal)
+            'nonterminal %s has no rhs productions, lhs=%s' % (nonterminal,
+            grammar.productions(rhs=nonterminal)))
 
     _memo.add(nonterminal)
 
