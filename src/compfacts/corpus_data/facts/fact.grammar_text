@@ -48,7 +48,7 @@ fact -> 'Assembly instruction ' assembly_instruction ' was so buggy that even ' 
 # People facts
 fact -> 'In ' year ', ' person ' proved ' adjective ' and ' adjective ' ' computer_thing ' ' proof_proposition '.'
 fact -> 'Person #' four_digit ' to suffer TEMPORARY BLINDNESS from the <BLINK> tag: ' person '.'
-fact -> programmer ' spend ' two_digit ' straight hours ' present_participle ' his program. She was ' dubious_statement_word ' ' adjective '.'
+fact -> programmer ' spends ' two_digit ' straight hours ' present_participle ' his program. She is ' dubious_statement_word ' ' adjective '.'
 fact -> tech_person ' and ' tech_person ' loved ' nationality ' ' computer_thing ' so much that they founded ' product_service '.'
 fact -> tech_person ' used so much computer that ' he_she ' became ' adjective ' ' computer_thing '.'
 fact -> 'Without ' programmer ', the ' computer_thing ' would not be ' adjective '.'
