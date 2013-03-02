@@ -10,6 +10,7 @@ install:
 	mkdir -p -v $(DESTDIR)/$(PREFIX)/sbin/
 	cp -v sbin/compfacts-service $(DESTDIR)/$(PREFIX)/sbin/
 	cp -v sbin/compfacts-web-service $(DESTDIR)/$(PREFIX)/sbin/
+	cp -v sbin/compfacts-backup $(DESTDIR)/$(PREFIX)/sbin/
 	$(PYTHON) setup.py install --prefix $(DESTDIR)/$(PREFIX)
 	mkdir -p -v $(DESTDIR)/$(PREFIX)/etc/ $(DESTDIR)/$(PREFIX)/etc/nginx/sites-available/
 	cp -v etc/compfacts.conf $(DESTDIR)/$(PREFIX)/etc/

@@ -8,7 +8,7 @@ Homepage: https://github.com/chfoo/compfacts
 
 Package: compfacts-service
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, adduser, python-compfacts
+Depends: ${shlibs:Depends}, ${misc:Depends}, adduser, python-compfacts, sqlite3
 Description: Computer Facts service script
  This package include only the scripts to start up the Twitter bot service.
 

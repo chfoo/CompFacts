@@ -1,0 +1,3 @@
+#!/bin/sh 
+
+sudo -u www-compfacts -g www-compfacts sh -c "sqlite3 /home/www-compfacts/compfacts.db .dump | gzip -c > /home/www-compfacts/dump.sql.gz"
