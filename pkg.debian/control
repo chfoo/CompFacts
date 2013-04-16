@@ -20,6 +20,6 @@ Description: Computer Facts service script
 
 Package: python-compfacts
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, python (>=2.7), python-tweepy, python-nltk
+Depends: ${shlibs:Depends}, ${misc:Depends}, python (>=2.7), python-nltk
 Description: Computer facts generator
  CompFacts uses a context-free grammar to generate computer facts.

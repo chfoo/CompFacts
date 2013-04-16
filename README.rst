@@ -62,6 +62,7 @@ respectively.
 The service requires `Tweepy <https://github.com/tweepy/tweepy>`_ for
 Twitter status updates and 
 `Tornado Web <http://tornadoweb.org>`_ for the RSS and service status pages.
+Make sure to install Tweepy using ``pip`` for latest version.
 
 The Twitter posting service's status can be checked at
 `<http://www.torwuf.com/compfacts/server_status>`_.
