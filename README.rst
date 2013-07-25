@@ -33,7 +33,7 @@ Corpus and grammar format
 The files are located in directory ``corpus_data``.
 
 Corpus text files are simple lists. The first portion of the filename
-the dot is the nonterminal name.
+before the dot is the nonterminal name.
 
 Grammar text files are the production rules. The filename does not
 matter. The grammar follows the NLTK format.
@@ -53,7 +53,7 @@ Running the server
 ==================
 
 I included a sample Debian package which I use for running the package as a service.
-The nginx config file is designed to be run behind lighttpd. The service
+A sample nginx config file is provided. The service
 will refuse to run if the default ``compfacts.conf`` is not configured.
 Symlink ``debian`` to ``pkg.debian`` for Debian package building.
 The commands ``debuild -b -us -uc`` and ``dh_clean`` will build and clean

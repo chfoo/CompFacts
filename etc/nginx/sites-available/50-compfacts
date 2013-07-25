@@ -4,19 +4,21 @@ upstream compfacts_frontends {
 
 server {
 	listen 127.0.0.1:8795;
-	server_name www.torwuf.com;
+	server_name www.example.com;
 	
 	client_max_body_size 1M;
+
+	location /compfacts {
+		try_files $uri @compfacts;
+	}
 	
-	set_real_ip_from 127.0.0.1;
-	real_ip_header X-Forwarded-For;
-	
-	location / {
+	location @compfacts {
+		proxy_next_upstream error;
 		proxy_pass_header Server;
 		proxy_set_header Host $http_host;
 		proxy_redirect off;
 		proxy_set_header X-Real-IP $remote_addr;
 		proxy_set_header X-Scheme $scheme;
-		proxy_pass http://compfacts_frontends;
+		proxy_pass http://compfacts_server;
 	}
 }

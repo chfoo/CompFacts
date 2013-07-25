@@ -129,7 +129,8 @@ def produce(grammar, nonterminal):
     __CONTINUEnn__
         Given nn as a percent, this nonterminal will continue the production
         only nn percent of the time. In other words, the tree is pruned
-        100 - nn times.
+        (100 - nn) percent of the time. For example, ``__CONTINUE42__``
+        means 42% of the time will the grammar rule will be completed.
 
     '''
     productions = grammar.productions(lhs=nonterminal)
