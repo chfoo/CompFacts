@@ -19,7 +19,7 @@ non_zero_digit -> '7'
 non_zero_digit -> '8'
 non_zero_digit -> '9'
 
-two_digit -> non_zero_digit
+one_digit -> non_zero_digit
 two_digit -> non_zero_digit digit
 three_digit -> two_digit digit
 four_digit -> three_digit digit

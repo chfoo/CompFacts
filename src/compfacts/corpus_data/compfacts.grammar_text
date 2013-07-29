@@ -46,10 +46,12 @@ __CONTINUE09__ -> '__ERROR__'
 # The facts
 # =========
 
-#compfact -> 'Fact: ' fact post_fact
-compfact -> fact post_fact
-compfact -> compfact2
-compfact2 -> compfact
-compfact2 -> qna
-#compfact2 -> 'Tip: ' protip
-compfact2 -> protip
+compfact -> compfact_v1
+compfact -> compfact_v2
+compfact_v1 -> fact post_fact
+compfact_v1 -> compfact_v1_2
+compfact_v1_2 -> compfact
+compfact_v1_2 -> qna
+compfact_v1_2 -> protip
+compfact_v2 -> fact2 post_fact
+
