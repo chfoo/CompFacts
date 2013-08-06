@@ -65,9 +65,11 @@ dragon_fact -> two_digit ' computer dragons can be seen hidden in the movie ' cg
 
 industry_fact -> 'Before ' product_service ' was launched, it was called ' greek_letter greek_letter greek_letter greek_letter greek_letter greek_letter greek_letter greek_letter '.'
 industry_fact -> 'It is illegal for ' nationality ' ' person ' to use ' product_service '.'
+industry_fact -> 'Join the computer industry. Become a ' job_title '!'
 industry_fact -> product_service ' attempted to take control of the universe in ' year '. They plan again in ' future_year '.'
 industry_fact -> product_service ' is currently spying on you.'
 industry_fact -> product_service ' uses ' adjective ' & ' adjective ' ' computer_thing ' ' computer_concept_buzzword '.'
+industry_fact -> programmer ' is the ' job_title ' at ' product_service '.'
 industry_fact -> programmer ' once worked with ' product_service ', but was fired because he stole the ' computer_thing '.'
 industry_fact -> 'The ' tech_field ' industry does not allow ' animal_type 'S (especially ' nationality ' ones) to receive pay-cheques.'
 industry_fact -> 'Trending: ' people ' in ' institute ' invent new ' adjective ' ' product_service '.'
@@ -103,6 +105,7 @@ person_fact -> tech_person ', also known as ' fake_hacker ', invented ' computer
 person_fact -> tech_person '’s favourite web browser is ' web_browser '.'
 person_fact -> 'Unlike most people, ' programmer ' has a ' computer_thing ' in his ' body_part '.'
 person_fact -> 'When someone is ' present_participle ' a ' computer_thing ', it is called ' present_participle ' a ' tech_person '.'
+person_fact -> programmer ' was once a ' job_title '.'
 
 person_fact -> hacked_celebrity
 hacked_celebrity -> celebrity ' was hacked by ' fake_hacker ' in ' year '.'
