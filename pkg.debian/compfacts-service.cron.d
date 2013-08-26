@@ -1,1 +1,1 @@
-0 6 * * * www-compfacts /usr/sbin/compfacts-backup
+0 */4 * * * www-compfacts /usr/sbin/compfacts-backup
