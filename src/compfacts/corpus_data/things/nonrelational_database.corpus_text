@@ -1,0 +1,195 @@
+# from http://en.wikipedia.org/wiki/XML_database
+# http://en.wikipedia.org/wiki/Document-oriented_database
+# http://en.wikipedia.org/wiki/NoSQL
+# http://nosql-database.org/
+
+Accumulo
+acid-state
+Aerospike
+AlchemyDB
+allegro-C
+AllegroGraph
+Amazon DynamoDB
+Amazon SimpleDB
+Amisa Server
+Apache Accumulo
+Apache Cassandra
+Apache CouchDB
+Apache Hbase
+Apache JENA
+Apache River
+ArangoDB
+Azure Table Storage
+BangDB
+BaseX
+Berkeley DB
+Berkeley DB XML
+Bigdata
+BigTable
+BinaryRage
+BrightstarDB
+Cassandra
+CDB
+Chordless
+Cloudant
+Cloudant Data Layer
+Cloudata
+Cloudera
+Clusterpoint
+Clusterpoint Server
+Clusterpoint XML database
+CodernityDB
+Coherence
+CoreFoundation Property list
+CortexDB
+Couchbase Server
+CouchDB
+D3 Pick database
+Datomic
+db4o
+densodb
+DEX
+DEX/Sparksee
+djondb
+Dynamo
+DynamoDB
+Dynomite
+ElasticSearch
+Elliptics
+EMC Documentum xDB
+Event Store
+Execom IOG
+eXist
+Extensible Storage Engine
+eXtremeDB
+EyeDB
+Faircom C-Tree
+Fallen 8
+FatDB
+FleetDB
+FlockDB
+FoundationDB
+Freebase
+GemFire
+GemStone/S
+GenieDB
+Genomu
+GigaSpaces
+GraphBase
+GT.M
+HamsterDB
+Hazelcast
+Hibari
+HPCC
+HSS Database
+HyperDex
+HyperGraphDB
+Hypertable
+IBM DB2
+IBM Informix C-ISAM
+IBM Notes and IBM Domino
+Infinispan
+InfiniteGraph
+InfinityDB
+InfoGrid
+Informix
+Inquire
+InterSystems Caché
+ISIS Family
+Jackrabbit
+JADE
+jBASE
+KAI
+Keyspace
+KirbyBase
+KitaroDB
+LevelDB
+LightCloud
+Lotus Notes
+Magma
+MarkLogic
+MarkLogic Server
+memcached
+MemcacheDB
+Meronymy
+MiniM DB
+Mnesia
+Model 204 Database
+MongoDB
+Moonshadow
+Morantex
+MUMPSDatabase
+NDatabase
+NDBM
+NeDB
+NEO
+Neo4J
+NeoDatis ODB
+Ninja Database Pro
+ObjectDatabase++
+ObjectDB
+Objectivity
+Objectivity/DB
+ObjectStore
+ODABA
+Ontotext-OWLIM
+OpenInsight
+OpenLDAP
+OpenLink Virtuoso
+OpenQM
+OrientDB
+OWLIM
+Perst
+PickleDB
+PicoLisp
+Prevayler
+Qizx
+quasardb
+Queplix
+RaptorDB
+RavenDB
+RDM Embedded
+Reality
+Redis
+RethinkDB
+Revelation Software's OpenInsight
+Riak
+Rocket U2
+Scalaris
+Scalien
+SciDB
+Sedna
+SharedHashFile
+siaqodb
+SimpleDB
+SisoDB
+Solr
+Sones GraphDB
+Sophia
+SparkleDB
+Sqrrl Enterprise
+Starcounter
+Stratosphere
+STSdb
+Symas LMDB
+Tarantool
+Terrastore
+ThruDB
+TIBCO Active Spaces
+TigerLogic PICK
+TITAN
+TokuMX
+Tokyo Cabinet
+Trinity
+Tuple space
+U2
+VelocityDB
+Versant
+Versant Object Database
+Virtuoso Universal Server
+Voldemort
+Vyhodb
+WakandaDB
+WhiteDB
+XAP
+ZODB

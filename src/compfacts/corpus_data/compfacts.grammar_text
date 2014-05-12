@@ -42,16 +42,24 @@ movie -> cg_movie
 post_fact -> __CONTINUE09__ ' ' believe_me
 __CONTINUE09__ -> '__ERROR__'
 
+any_crypto_coin -> fake_crypto_coin
+any_crpyto_coin -> crpyto_coin
+
+any_database -> relational_database
+any_database -> nonrelational_database
+
 
 # The facts
 # =========
 
 compfact -> compfact_v1
 compfact -> compfact_v2
+compfact -> compfact_v3
 compfact_v1 -> fact post_fact
 compfact_v1 -> compfact_v1_2
 compfact_v1_2 -> compfact
 compfact_v1_2 -> qna
 compfact_v1_2 -> protip
 compfact_v2 -> fact2 post_fact
+compfact_v3 -> fact3 post_fact
 

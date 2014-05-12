@@ -1,6 +1,6 @@
 # encoding=utf8
 '''Post facts'''
-# Copyright 2012 by Christopher Foo <chris.foo@gmail.com>
+# Copyright 2012-2014 by Christopher Foo <chris.foo@gmail.com>
 # Licensed under GPLv3. See COPYING.txt for details.
 import contextlib
 import logging
@@ -231,8 +231,8 @@ def escape_for_twitter(text):
                 continue
 
             if i in (0, 1):
-                return u'%s`%s' % (match_text[0], match_text[1:])
+                return u'%s\u00A0%s' % (match_text[0], match_text[1:])
             else:
-                return u'%s`%s' % (match_text[0:2], match_text[2:])
+                return u'%s\u00A0%s' % (match_text[0:2], match_text[2:])
 
     return re.sub(TWITTER_ESCAPE_RE, escape, text)
