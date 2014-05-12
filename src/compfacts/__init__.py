@@ -10,7 +10,7 @@ These facts are regularly posted to the Twitter account
 import distutils.version
 
 short_version = '1.7'  # N.N
-__version__ = short_version + ''  # N.N[.N]+[{a|b|c|rc}N[.N]+][.postN][.devN]
+__version__ = short_version + '.1'  # N.N[.N]+[{a|b|c|rc}N[.N]+][.postN][.devN]
 
 distutils.version.StrictVersion(__version__)
 
