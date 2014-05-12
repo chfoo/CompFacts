@@ -231,8 +231,8 @@ def escape_for_twitter(text):
                 continue
 
             if i in (0, 1):
-                return u'%s\u00A0%s' % (match_text[0], match_text[1:])
+                return u'%s\u200B%s' % (match_text[0], match_text[1:])
             else:
-                return u'%s\u00A0%s' % (match_text[0:2], match_text[2:])
+                return u'%s\u200B%s' % (match_text[0:2], match_text[2:])
 
     return re.sub(TWITTER_ESCAPE_RE, escape, text)
