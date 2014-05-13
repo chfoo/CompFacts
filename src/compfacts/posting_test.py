@@ -46,28 +46,28 @@ class TestDatabase(unittest.TestCase):
 class TestEscape(unittest.TestCase):
     def test_at_symbol(self):
         self.assertEqual(escape_for_twitter(u'''something @kitten function'''),
-            u'''something @​kitten function''')
+            u'''something @\u200bkitten function''')
 
     def test_hash_symbol(self):
         self.assertEqual(escape_for_twitter(u'''something #kitten function'''),
-            u'''something #​kitten function''')
+            u'''something #\u200bkitten function''')
 
     def test_dollar_symbol(self):
         self.assertEqual(escape_for_twitter(u'''something $kitten function'''),
-            u'''something $​kitten function''')
+            u'''something $\u200bkitten function''')
 
     def test_domain_similar(self):
         self.assertEqual(escape_for_twitter(u'''I love my Game.com device!'''),
-            u'''I love my Game.​com device!''')
+            u'''I love my Game.\u200bcom device!''')
 
     def test_multi(self):
         self.assertEqual(escape_for_twitter(u'''Game.com $uper f@ntastic'''),
-            u'''Game.​com $​uper f@​ntastic''')
+            u'''Game.​com $\u200buper f@\u200bntastic''')
 
     def test_numerics(self):
         self.assertEqual(escape_for_twitter(
             u'''$123.456 money #1 person @0x0000'''),
-            u'''$123.456 money #​1 person @​0x0000''')
+            u'''$123.456 money #\u200b1 person @\u200b0x0000''')
 
 
 class TestPostScheduler(unittest.TestCase):
